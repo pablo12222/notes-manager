@@ -27,11 +27,11 @@ It allows users to create, edit, and organize notes in a **Kanban-style board** 
 
 | Layer | Technologies |
 |--------|--------------|
-| **Frontend** | React, Vite, TypeScript, TailwindCSS |
+| **Frontend** | React, Vite, TypeScript |
 | **Backend** | ASP.NET Core (.NET 8), MediatR, MongoDB |
 | **Authentication** | Auth0 (JWT) |
 | **Logging** | Serilog |
-| **Tools** | Swagger, CORS, Dependency Injection |
+| **Tools** | Swagger, CORS |
 
 ---
 
@@ -286,4 +286,9 @@ notes-spa
         ├── Notes.tsx          # Notes list and editor
         └── Profile.tsx        # Auth0 user profile
 ```
+
+
+# 🖼️ Showcase
+
+![Notes Manager Showcase](docs/notes_manager_showcase.gif)
 
