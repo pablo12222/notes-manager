@@ -1,0 +1,55 @@
+# ===== Ogólne / systemowe =====
+.DS_Store
+Thumbs.db
+
+# ===== IDE / edytory =====
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ===== Logi =====
+**/logs/
+**/*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ===== Pliki środowiskowe =====
+**/.env
+**/.env.*
+!.env.example
+**/*.local.*
+*.local
+
+# ===== Frontend (Vite/React) =====
+notes-spa/node_modules/
+notes-spa/dist/
+notes-spa/.vite/
+notes-spa/.cache/
+notes-spa/.eslintcache
+notes-spa/.turbo/
+notes-spa/.parcel-cache/
+notes-spa/out/
+notes-spa/*.tgz
+
+# ===== Backend (.NET) =====
+notes-backend/**/bin/
+notes-backend/**/obj/
+notes-backend/**/.vs/
+notes-backend/**/TestResult*/
+notes-backend/**/publish/
+notes-backend/**/out/
+
+# Warianty appsettings używane lokalnie — nie commitować sekretów
+notes-backend/**/appsettings.Development.json
+notes-backend/**/appsettings.Local.json
+notes-backend/**/appsettings.*.local.json
+notes-backend/**/appsettings.json
+# ===== Inne duże / tymczasowe =====
+*.tmp
+*.swp
+*.bak
