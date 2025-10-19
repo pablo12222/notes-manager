@@ -255,9 +255,6 @@ notes-spa
 ├── tsconfig.node.json         # TS config for Vite/node
 ├── vite.config.ts             # Vite build & dev server configuration
 │
-├── public/
-│   └── vite.svg               # Public static assets (copied as-is)
-│
 └── src/
     ├── api.ts                 # Axios/fetch client setup
     ├── endpoints.ts           # Central list of API endpoints
@@ -267,9 +264,6 @@ notes-spa
     ├── App.tsx                # Main React component
     ├── main.tsx               # ReactDOM root entry
     ├── index.css              # Global styles
-    │
-    ├── assets/
-    │   └── react.svg          # Static React logo
     │
     ├── components/            # Reusable UI components
     │   ├── AddCardForm.tsx
@@ -291,4 +285,5 @@ notes-spa
 # 🖼️ Showcase
 
 ![Notes Manager Showcase](docs/notes_manager_showcase.gif)
+
 
